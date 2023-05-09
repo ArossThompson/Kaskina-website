@@ -1,0 +1,33 @@
+.about {
+  padding-bottom: 50px;
+  padding-top: 60px;
+  width: 100%;
+  background-color: rgba(220, 219, 219, 0.1);
+  text-align: left;
+
+  .container {
+    width: 55%;
+  }
+
+   
+  .about-info {
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 25px;
+    max-height: 350px;
+  }
+  
+  hr {
+    margin-bottom: 50px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  img {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+  }
+
+
+}

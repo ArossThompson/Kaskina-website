@@ -1,0 +1,27 @@
+.facials {
+  h2 {
+    font-family: Courier New, monospace;
+    margin: 50px 0 30px 0;
+  }
+
+  .treatments {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .btn.btn-primary { 
+    background-color: rgb(65, 156, 104);
+    border-color: rgb(65, 156, 104);
+    margin-top: 20px;
+    width: 200px;
+
+    
+  }
+
+  .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
+    background-color: rgb(79, 163, 114);
+    border-color: rgb(65, 156, 104);
+  }
+}

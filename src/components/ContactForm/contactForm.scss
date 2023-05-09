@@ -1,0 +1,110 @@
+.contact-form {
+  margin: 50px auto 0 auto;
+  padding: 30px 20px;
+  position: relative;
+  max-width: 500px;
+
+  .form-group {
+    padding: 6px 15px;
+
+    .required-asterisk {
+      color: red;
+    }
+
+    .validation-error {
+      margin: 3px 0 0 3px;
+      color: darkorange;
+
+      svg {
+        position: relative;
+        bottom: 2px;
+        border: 1px darkorange solid;
+        padding: 2px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+      }
+    }
+  }
+
+  .form-check {
+    margin-bottom: 15px;
+  }
+
+  .form-submit {
+    text-align: center;
+
+    button {
+      width: 100%;
+    }
+  }
+
+  &__completed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 500px;
+
+    svg {
+      color: green;
+      border: 1px solid green;
+      padding: 5px;
+      margin-bottom: 15px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+    }
+
+    &--error {
+      svg {
+        color: red;
+        border-color: red;
+      }
+    }
+  }
+
+  &__alternative {
+    a, a:visited {
+      color: white;
+    }
+    svg {
+      color: pink;
+      position: relative;
+      right: 2px;
+    }
+  }
+}
+
+.contact-form::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgb(255, 255, 255);
+  z-index: -1;
+  opacity: 0.5;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.contact-form__completed--error::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgb(255, 153, 153);
+  z-index: -1;
+  opacity: 0.5;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
