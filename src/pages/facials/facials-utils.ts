@@ -5,7 +5,6 @@ import microneedle from '../../assets/microneedle.jpg';
 import mask from '../../assets/mask.jpg';
 import carboxy from '../../assets/carboxy.jpg';
 import backtobasics from '../../assets/backtobasics.jpg';
-import aloe from '../../assets/aloe.jpg';
 import room from '../../assets/room.jpg';
 
 export const treatmentsList = [
@@ -75,7 +74,7 @@ export const treatmentsList = [
   }, 
   {
     title: "DREAMLIKE DUO",
-    img: aloe,
+    img: room,
     description: "This 1 hour and 45minutes facial incorporates dermaplaning & micro-needling. This facial will leave you with healthy, renewed skin. Back to basics + Refresher + Dermaplaning + Microneedle treatment with ice globe massage.",
     price: "£80.00",
     time: "1hr 30min",
