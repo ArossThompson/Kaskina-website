@@ -69,6 +69,13 @@
     }
   }
 
+  &__loading {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   &__alternative {
     a, a:visited {
       color: white;

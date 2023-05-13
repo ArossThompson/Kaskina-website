@@ -84,12 +84,12 @@ export const ContactForm = () => {
         <p>I will be in touch shortly.</p>
         <p>
           Alternatively, you can always contact me directly at{" "}
-          <a href="mailto:rossathompson94@gmail.com">
-            Rossathompson94@gmail.com
+          <a href="mailto:kaskinabookings@gmail.com">
+          kaskinabookings@gmail.com
           </a>
         </p>
         <p>
-          Or call/text me on <a href="tel:07830044525">07830044525</a>
+          Or call/text me on <a href="tel:07851339369">07851339369</a>
         </p>
         <p>
           Thank you for your support, please feel free to follow me on{" "}
@@ -109,12 +109,12 @@ export const ContactForm = () => {
         <p>I'm really sorry for any invoncenience.</p>
         <p>
           Alternatively, you can always contact me directly at{" "}
-          <a href="mailto:rossathompson94@gmail.com">
-            Rossathompson94@gmail.com
+          <a href="mailto:kaskinabookings@gmail.com">
+            kaskinabookings@gmail.com@gmail.com
           </a>
         </p>
         <p>
-          Or call/text me on <a href="tel:07830044525">07830044525</a>
+          Or call/text me on <a href="tel:07851339369">07851339369</a>
         </p>
         <p>
           Thank you for your support, please feel free to follow me on{" "}

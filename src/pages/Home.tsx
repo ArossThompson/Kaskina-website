@@ -14,7 +14,7 @@ export const Home = () => {
               <div className="col-lg-6 heading">
                 <h1>Welcome to Kaskina</h1>
                 <p>Healthy skin is always in.</p>
-                <a href="https://www.instagram.com/kaskina_skinandlaser/" target="_blank"><button className="btn btn-success"><FaInstagram size={30}/> Make a booking</button></a> 
+                <a href="https://www.instagram.com/kaskina_skinandlaser/" target="_blank"><button className="btn btn-success"><FaInstagram size={30}/> Find out more</button></a> 
               </div>
               <div className="col-lg-6 contact">
                 <ContactForm />

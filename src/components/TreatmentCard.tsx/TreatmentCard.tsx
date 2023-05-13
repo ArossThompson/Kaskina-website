@@ -22,7 +22,6 @@ export const TreatmentCard = ({
         <p>Time: {time}</p>
         <p className="price">{price}</p>
       </div>
-    </div>
-    
+    </div> 
   )
 }

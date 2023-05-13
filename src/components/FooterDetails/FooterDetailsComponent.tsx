@@ -3,7 +3,7 @@ import { FaSearchLocation, FaPhoneAlt, FaInstagram } from "react-icons/fa";
 import img from '../../assets/treatment.jpg'
 import kathy from '../../assets/kathy.jpg';
 import aloe from '../../assets/Aloe.jpg';
-import accessories from '../../assets/kaskina-accessories.jpg';
+import carboxy from '../../assets/carboxy.jpg';
 import room from '../../assets/room.jpg';
 import peach from '../../assets/peach.jpg'
 
@@ -19,10 +19,11 @@ export const FooterDetailsComponent = () => {
               <div className="icon-heading">
                 <FaSearchLocation size={45}/> Location
               </div>
-              <p>16 Pinders Farm Drive</p>
+              <p>Cheshire Beauty and Wellbeing</p>
+              <p>Alder Lane, Burtonwood</p>
               <p>Warrington</p>
-              <p>WA1 2GF</p>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2379.411556787217!2d-2.5872422729670874!3d53.389577471487634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b022356561179%3A0x5d59896b89a7591!2sPinders%20Farm%20Dr%2C%20Warrington%20WA1%202GF!5e0!3m2!1sen!2suk!4v1682514887942!5m2!1sen!2suk" height="150" style={{"border" :0}} loading="lazy"></iframe>
+              <p>WA5 4BN</p>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2377.500025623499!2d-2.6257651229655212!3d53.42376726892743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b03ddcc3f75fb%3A0x68660035252999f9!2sCheshire%20Beauty%20and%20Wellbeing!5e0!3m2!1sen!2suk!4v1683968516669!5m2!1sen!2suk"  height="150" style={{"border" :0}} loading="lazy"></iframe>
             </div>
           </div>
           <div className="col-lg-3">
@@ -47,7 +48,7 @@ export const FooterDetailsComponent = () => {
                   <img src={img} className="img-fluid" alt="treatment" />
                   <img src={kathy} className="img-fluid" alt="treatment" />
                   <img src={aloe} className="img-fluid" alt="treatment" />
-                  <img src={accessories} className="img-fluid" alt="treatment" />
+                  <img src={carboxy} className="img-fluid" alt="treatment" />
                   <img src={room} className="img-fluid" alt="treatment" />
                   <img src={peach} className="img-fluid" alt="treatment" />
                 </div>
