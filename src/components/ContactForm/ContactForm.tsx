@@ -150,7 +150,7 @@ export const ContactForm = () => {
           onChange={(e) => handleInputs(e, formActionTypeEnum.nameInput)}
         />
         {!formState.nameValid && formState.formTouched && (
-          <div className="validation-error">
+          <div className="validation-error" data-testid="name-validation">
             <FaInfo size={16} /> Please enter your name
           </div>
         )}
@@ -170,7 +170,7 @@ export const ContactForm = () => {
           onChange={(e) => handleInputs(e, formActionTypeEnum.emailInput)}
         />
         {!formState.emailValid && formState.formTouched && (
-          <div className="validation-error">
+          <div className="validation-error" data-testid="email-validation">
             <FaInfo size={16} /> Please enter a valid email address
           </div>
         )}
@@ -180,6 +180,7 @@ export const ContactForm = () => {
         <label htmlFor="phoneNumber">Phone Number</label>
         <input
           type="text"
+          data-testid="phone-input"
           className="form-control"
           id="phoneNumber"
           aria-describedby="emailHelp"
@@ -189,7 +190,7 @@ export const ContactForm = () => {
         />
 
         {!formState.phoneNumberValid && formState.formTouched && (
-          <div className="validation-error">
+          <div className="validation-error" data-testid="phone-validation">
             <FaInfo size={16} /> Please enter a valid phone number
           </div>
         )}
@@ -208,7 +209,7 @@ export const ContactForm = () => {
         ></textarea>
 
         {!formState.messageValid && formState.formTouched && (
-          <div className="validation-error">
+          <div className="validation-error" data-testid="message-validation">
             <FaInfo size={16} /> Please enter a message
           </div>
         )}
@@ -230,8 +231,8 @@ export const ContactForm = () => {
       </div>
 
       <hr />
-      <div className="form-submit">
-        <button type="submit" className="btn btn-primary">
+      <div className="form-submit" >
+        <button type="submit" className="btn btn-primary" data-testid="submit-button">
           Submit
         </button>
       </div>

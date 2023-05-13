@@ -14,7 +14,7 @@ export const FooterDetailsComponent = () => {
     <div className="location">
       <div className="container">
         <div className="row">
-          <div className="col-lg-3">
+          <div className="col-md-4">
             <div className="footer-details-section">
               <div className="icon-heading">
                 <FaSearchLocation size={45}/> Location
@@ -26,7 +26,7 @@ export const FooterDetailsComponent = () => {
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2377.500025623499!2d-2.6257651229655212!3d53.42376726892743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b03ddcc3f75fb%3A0x68660035252999f9!2sCheshire%20Beauty%20and%20Wellbeing!5e0!3m2!1sen!2suk!4v1683968516669!5m2!1sen!2suk"  height="150" style={{"border" :0}} loading="lazy"></iframe>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-md-4">
             <div className="footer-details-section">
               <div className="icon-heading">
                 <FaPhoneAlt size={45}/> Details
@@ -39,7 +39,7 @@ export const FooterDetailsComponent = () => {
               <a href="mailto:rossathompson94@gmail.com">Rossathompson94@gmail.com</a>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-md-4">
             <div className="footer-details-section">
               <div className="icon-heading">
                 <FaInstagram size={45}/> <a className="heading-link" href="https://www.instagram.com/kaskina_skinandlaser/" target="_blank">Instagram</a> 
@@ -55,17 +55,13 @@ export const FooterDetailsComponent = () => {
             </div>
             
           </div>
-
-          <div className="col-lg-3">
-            <div className="footer-details-section">
-              <div className="brand">
-                <a href="">{brandLogo}</a>
-              </div>
-
-            </div>
-            
-          </div>
         </div>
+      </div>
+      <div className="footer-details-section">
+        <div className="brand">
+          <a href="">{brandLogo}</a>
+        </div>
+
       </div>
       
     </div>
