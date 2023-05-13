@@ -67,7 +67,7 @@ export const treatmentsList = [
   {
     title: "MIGHTY MIX",
     img: room,
-    description: "Incorporating the microneedle treatment with an added serum during treatment.",
+    description: "Incorporating the microneedle treatment with an added serum during treatment. Serums: Glow - Anti pigmentation, hydrating, firming, tightening with antioxidant ingredients. Refresh - Skin Rejuvenating, hydrating, firming, soothing with antioxidant ingredients. Tight - A mixture of skin rejuvenation, hydrating, firming, tightening, antioxidant & anti wrinkle ingredients. Hair energy - Stimulate hair growth, slow hair loss, improve hair quality.",
     price: "£90.00",
     time: "1hr 15min",
     id: "mighty-mix"
