@@ -10,6 +10,7 @@ export const Home = () => {
     <PageWrapper>
       <div className="homepage" id="home">
         <div className="container">
+        <div className="fixed-img"></div>
           <div className="row">
               <div className="col-lg-6 heading">
                 <h1>Welcome to Kaskina</h1>
