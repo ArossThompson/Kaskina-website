@@ -9,7 +9,7 @@ export const Footer = () => {
       <div className="details">
         <FooterDetailsComponent />
       </div>
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
           <div className="col-md-12">
             <hr />

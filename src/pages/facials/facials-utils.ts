@@ -19,7 +19,7 @@ export const treatmentsList = [
   {
     title: "THE REFRESHER",
     img: treatment,
-    description: "Say goodbye to dead skin cells and hello to gorgeous, refreshed skin. This facial incorporates an enzyme peel - much more gentle than chemical peels with enzymes being the active ingredient. Back to basics + Enzyme painless peel.",
+    description: "Say goodbye to dead skin cells and hello to gorgeous, refreshed skin. This facial incorporates an enzyme peel - much more gentle than chemical peels with enzymes being the active ingredient.",
     price: "£40.00",
     time: "45min",
     id: "the-refresher"
@@ -35,7 +35,7 @@ export const treatmentsList = [
   {
     title: "CARBOXY OXYGEN FACIAL",
     img: carboxy,
-    description: "A non-invasive carboxytherapy gel & activating face mask is applied to the skin with carbon dioxide - this treatment increases oxygen to the skin that is left perfectly rejuvenated. Includes ice globe massage. Back to basics + Refresher + Carboxy Facial.",
+    description: "A non-invasive carboxytherapy gel & activating face mask is applied to the skin with carbon dioxide - this treatment increases oxygen to the skin that is left perfectly rejuvenated.",
     price: "£55.00",
     time: "1hr",
     id: "carboxy-oxygen-facial"
@@ -59,7 +59,7 @@ export const treatmentsList = [
   {
     title: "MICRO-NEEDLING",
     img: microneedle,
-    description: "One of the most popular treatments within the skincare industry. A small rolling device used to create tiny puncture channels that encourage organic collagen renewal. The perfect non- surgical procedure used for facial rejuvenation. Back to basics + microneedle treatment + hydrating sheet mask + ice globe massage.",
+    description: "One of the most popular treatments within the skincare industry. A small rolling device used to create tiny puncture channels that encourage organic collagen renewal.",
     price: "£70.00",
     time: "1hr 15min",
     id: "micro-needling"
@@ -67,7 +67,7 @@ export const treatmentsList = [
   {
     title: "MIGHTY MIX",
     img: room,
-    description: "Incorporating the microneedle treatment with an added serum during treatment. Serums: Glow - Anti pigmentation, hydrating, firming, tightening with antioxidant ingredients. Refresh - Skin Rejuvenating, hydrating, firming, soothing with antioxidant ingredients. Tight - A mixture of skin rejuvenation, hydrating, firming, tightening, antioxidant & anti wrinkle ingredients. Hair energy - Stimulate hair growth, slow hair loss, improve hair quality.",
+    description: "Incorporating the microneedle treatment with an added serum during treatment. Serums: Glow - Anti pigmentation, hydrating, firming, tightening with antioxidant ingredients.",
     price: "£90.00",
     time: "1hr 15min",
     id: "mighty-mix"

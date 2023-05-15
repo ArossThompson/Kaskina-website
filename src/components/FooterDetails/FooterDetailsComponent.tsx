@@ -18,7 +18,9 @@ export const FooterDetailsComponent = () => {
             <div className="footer-details-section">
               <div className="icon-heading">
                 <FaSearchLocation size={45}/> Location
+                <hr />
               </div>
+
               <p>Cheshire Beauty and Wellbeing</p>
               <p>Alder Lane, Burtonwood</p>
               <p>Warrington</p>
@@ -30,19 +32,21 @@ export const FooterDetailsComponent = () => {
             <div className="footer-details-section">
               <div className="icon-heading">
                 <FaPhoneAlt size={45}/> Details
+                <hr />
               </div>
               <p className="heading">Phone</p>
-              <a data-global="phone" href="tel:07830044525">07830044525</a>
+              <a data-global="phone" href="tel:07851339369">07851339369</a>
             </div>
             <div className="footer-details-section">
               <p className="heading">Email</p>
-              <a href="mailto:rossathompson94@gmail.com">Rossathompson94@gmail.com</a>
+              <a href="mailto:kaskinabookings@gmail.com">kaskinabookings@gmail.com</a>
             </div>
           </div>
           <div className="col-md-4">
             <div className="footer-details-section">
               <div className="icon-heading">
                 <FaInstagram size={45}/> <a className="heading-link" href="https://www.instagram.com/kaskina_skinandlaser/" target="_blank">Instagram</a> 
+                <hr />
               </div>
               <div className="images">
                   <img src={img} className="img-fluid" alt="treatment" />
@@ -57,12 +61,7 @@ export const FooterDetailsComponent = () => {
           </div>
         </div>
       </div>
-      <div className="footer-details-section">
-        <div className="brand">
-          <a href="">{brandLogo}</a>
-        </div>
-
-      </div>
+      
       
     </div>
   )

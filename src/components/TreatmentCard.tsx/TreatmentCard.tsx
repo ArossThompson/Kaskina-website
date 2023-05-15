@@ -19,8 +19,13 @@ export const TreatmentCard = ({
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{description}</p>
-        <p>Time: {time}</p>
-        <p className="price">{price}</p>
+        
+        <div className="info-section">
+          <hr />
+          <p>Time: {time}</p>
+          <p className="price">{price}</p>
+        </div>
+        
       </div>
     </div> 
   )
